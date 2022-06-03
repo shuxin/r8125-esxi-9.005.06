@@ -10,7 +10,7 @@ This source code is based on realtek official source, VMware-ESXi-70U3-ODP and V
 Just do these steps:
 - Prepare the building environment, I did it on CentOS 7
 - Log in with root, make a folder name 'build' on /, make folder toolchain and vsphere in /build.
-- Copy and extract gcc-4.8.0, binutils-2.22, glibc-2.3.4-2.41 to /build/toolchain/src 
+- untar tar -xvf /<realpath>/VMware-TOOLCHAIN-ODP-70U3/tc-src.tar to /build/toolchain/
 - Compile the toolchain, dest path is /build/toolchain/lin64
 - Extract and copy vmkdrivers-gpl from 70U3-ODP to /build/vsphere
 - Copy build-r8125.sh to /build/vsphere/vmkdrivers-gpl/
